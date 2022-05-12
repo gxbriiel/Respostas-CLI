@@ -27,7 +27,7 @@ console.log('# ATUALIZADO DE ACORDO COM O TEMPO E DISPONIBILIDADE DO DESENVOLVED
 console.log('')
 
 let materias = {
-    portugues_1: {
+    port_1: {
         nome_composto: 'Português 1',
         aulas: {
             A1: {
@@ -47,7 +47,7 @@ let materias = {
             },
         }
     },
-    portugues_2: {
+    port_2: {
         nome_composto: 'Português 2',
         aulas: {
             A1: {
@@ -67,7 +67,7 @@ let materias = {
             },
         }
     },
-    historia_1: {
+    hist_1: {
         nome_composto: 'História 1',
         aulas: {
             A1: {
@@ -87,7 +87,7 @@ let materias = {
             },
         }
     },
-    historia_2: {
+    hist_2: {
         nome_composto: 'História 2',
         aulas: {
             A1: {
@@ -107,7 +107,7 @@ let materias = {
             },
         }
     },
-    historia_3: {
+    hist_3: {
         nome_composto: 'História 3',
         aulas: {
             A1_2: {
@@ -124,7 +124,7 @@ let materias = {
             },
         }
     },
-    historia_4: {
+    hist_4: {
         nome_composto: 'História 4',
         aulas: {
             A1: {
@@ -147,7 +147,7 @@ let materias = {
             },
         }
     },
-    filosofia_1: {
+    filo_1: {
         nome_composto: 'Filosofia',
         aulas: {
             A1: {
@@ -170,7 +170,7 @@ let materias = {
             },
         }
     },
-    geografia_1: {
+    geog_1: {
         nome_composto: 'Geografia 1',
         aulas: {
             A1: {
@@ -193,7 +193,7 @@ let materias = {
             },
         }
     },
-    geografia_2: {
+    geog_2: {
         nome_composto: 'Geografia 2',
         aulas: {
             A1: {
@@ -216,7 +216,7 @@ let materias = {
             },
         }
     },
-    biologia_1: {
+    biol_1: {
         nome_composto: 'Biologia 1',
         aulas: {
             A1: {
@@ -231,9 +231,33 @@ let materias = {
                 sm: '',
                 nome_de_aula: 'Aulas 2 e 3'
             },
+            A4: {
+                ec: 'ECACBC',
+                ep: 'DBDEDADBAAEEB',
+                sm: '',
+                nome_de_aula: ''
+            },
+            A5_6: {
+                ec: 'EACBA',
+                ep: 'BBAEDBAEEBCBC',
+                sm: '',
+                nome_de_aula: 'Aulas 5 e 6'
+            },
+            A7: {
+                ec: 'ADBCC',
+                ep: 'BDBDDCCDBADAEDD',
+                sm: '',
+                nome_de_aula: ''
+            },
+            A8: {
+                ec: 'BCEAABB',
+                ep: 'CADAEEBCCCAE',
+                sm: '',
+                nome_de_aula: ''
+            },
         }
     },
-    bio_2: {
+    biol_2: {
         nome_composto: 'Biologia 2',
         aulas: {
             A1_2: {
@@ -250,7 +274,7 @@ let materias = {
             },
         }
     },
-    bio_3: {
+    biol_3: {
         nome_composto: 'Biologia 3',
         aulas: {
             A1: {
@@ -267,7 +291,7 @@ let materias = {
             },
         }
     },
-    bio_4: {
+    biol_4: {
         nome_composto: 'Biologia 4',
         aulas: {
             A1_2: {
@@ -284,7 +308,7 @@ let materias = {
             },
         }
     },
-    bio_5: {
+    biol_5: {
         nome_composto: 'Biologia 5',
         aulas: {
             A1: {
@@ -307,7 +331,7 @@ let materias = {
             },
         }
     },
-    qui_1: {
+    quim_1: {
         nome_composto: 'Química 1',
         aulas: {
             A1_2: {
@@ -324,7 +348,7 @@ let materias = {
             },
         }
     },
-    qui_2: {
+    quim_2: {
         nome_composto: 'Química 2',
         aulas: {
             A1_2: {
@@ -341,7 +365,7 @@ let materias = {
             },
         }
     },
-    qui_3: {
+    quim_3: {
         nome_composto: 'Química 3',
         aulas: {
             A1_2: {
@@ -358,7 +382,7 @@ let materias = {
             },
         }
     },
-    qui_4: {
+    quim_4: {
         nome_composto: 'Química 4',
         aulas: {
             A1: {
@@ -381,7 +405,7 @@ let materias = {
             },
         }
     },
-    qui_5: {
+    quim_5: {
         nome_composto: 'Química 5',
         aulas: {
             A1: {
@@ -404,7 +428,7 @@ let materias = {
             },
         }
     },
-    fis_1: {
+    fisi_1: {
         nome_composto: 'Física 1',
         aulas: {
             A1: {
@@ -427,7 +451,7 @@ let materias = {
             },
         }
     },
-    fis_2: {
+    fisi_2: {
         nome_composto: 'Física 2',
         aulas: {
             A1: {
@@ -450,7 +474,7 @@ let materias = {
             },
         }
     },
-    fis_3: {
+    fisi_3: {
         nome_composto: 'Física 3',
         aulas: {
             A1: {
@@ -473,7 +497,7 @@ let materias = {
             },
         }
     },
-    fis_4: {
+    fisi_4: {
         nome_composto: 'Física 4',
         aulas: {
             A1: {
@@ -496,7 +520,7 @@ let materias = {
             },
         }
     },
-    fis_5: {
+    fisi_5: {
         nome_composto: 'Física 5',
         aulas: {
             A1: {
@@ -519,7 +543,7 @@ let materias = {
             },
         }
     },
-    mat_1: {
+    mate_1: {
         nome_composto: 'Matemática 1',
         aulas: {
             A1_2: {
@@ -536,7 +560,7 @@ let materias = {
             },
         }
     },
-    mat_2: {
+    mate_2: {
         nome_composto: 'Matemática 2',
         aulas: {
             A1: {
@@ -559,7 +583,7 @@ let materias = {
             },
         }
     },
-    mat_3: {
+    mate_3: {
         nome_composto: 'Matemática 3',
         aulas: {
             A1: {
@@ -582,7 +606,7 @@ let materias = {
             },
         }
     },
-    mat_4: {
+    mate_4: {
         nome_composto: 'Matemática 4',
         aulas: {
             A1: {

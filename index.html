@@ -11,6 +11,20 @@
 <body>
 
     <div class="central">
+        <div class="inputs">
+            <input type="text" name="questions" id="questions_param">
+            <button id="generate_button" onclick="generateQuestions(document.getElementById('questions_list'), document.getElementById('questions_param').value)">gerar</button>
+            <script>
+                const textbox = document.getElementById('questions_param')
+                const generate_button = document.getElementById('generate_button')
+                textbox.addEventListener('keydown', () => {
+                    if (event.keyCode == 13) {
+                        console.clear();
+                        generate_button.click();
+                    }
+                })
+            </script>
+        </div>
         <ul id="questions_list">
             <!-- <li>
                 <a href="#">
@@ -31,9 +45,6 @@
             </li> -->
         </ul>
     </div>
-    <script>
-        generateQuestions(document.getElementById('questions_list'), getRespostasLength())
-    </script>
 
 </body>
 

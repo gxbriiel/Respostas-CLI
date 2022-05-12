@@ -1,16 +1,22 @@
-const resp_long = "DAEDDDAECADAECBACDACAC"
-var respostas = resp_long.split('')
+const resp_long = ""
 
-let respostas_length = resp_long.length;
+let respostas = null;
 
-function getRespostasLength() { return respostas_length; }
+function getRespostasLength() { return respostas.length; }
 
-function generateQuestions(element, total) {
+function generateQuestions(element, param) {
+
+    var param_filtered = param.toUpperCase();
+
+    respostas = param_filtered.split('')
+    let respostas_length = getRespostasLength();
+
+    element.innerHTML = '';
 
     console.log('generating...')
 
     var i = 0;
-    while(i != total) {
+    while(i != respostas_length) {
         console.log('generated: ' + (i+1))
         var li = document.createElement('li')
         var a = document.createElement('a')
