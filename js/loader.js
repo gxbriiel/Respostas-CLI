@@ -15,6 +15,9 @@ function generateQuestions(element, param) {
 
     console.log('generating...')
 
+    copyToClipboard(textbox.value)
+    textbox.value = ''
+
     var i = 0;
     while(i != respostas_length) {
         console.log('generated: ' + (i+1))
@@ -56,6 +59,13 @@ function toggleResponse(id) {
         element.setAttribute('shownresponse', false)
     }
 
-    
 
+}
+
+function copyToClipboard(text) {
+    navigator.clipboard.writeText(text);
+}
+
+function openCalculator() {
+    window.open('Calculator:///')
 }
