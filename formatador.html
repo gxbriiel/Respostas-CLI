@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/page.css">
+    <script src="js/formater.js"></script>
+    <script src="js/utils.js"></script>
+    <title>Formatador</title>
+</head>
+<body>
+
+    <div class="central">
+        <div class="inputs" id="inputs">
+            <div class="materia_aula_inputs">
+                <select class="separate" name="aula" id="questions_materia">
+                    <option value="0">MATEMÁTICA 1</option>
+                    <option value="1">MATEMÁTICA 2</option>
+                    <option value="2">MATEMÁTICA 3</option>
+                    <option value="3">MATEMÁTICA 4</option>
+                    <option value="4">MATEMÁTICA 5</option>
+                    <option value="5">FÍSICA 1</option>
+                    <option value="6">FÍSICA 2</option>
+                    <option value="7">FÍSICA 3</option>
+                    <option value="8">FÍSICA 4</option>
+                    <option value="9">BIOLOGIA 1</option>
+                    <option value="10">BIOLOGIA 2</option>
+                    <option value="11">BIOLOGIA 3</option>
+                    <option value="12">BIOLOGIA 4</option>
+                    <option value="13">BIOLOGIA 5</option>
+                    <option value="14">QUÍMICA 1</option>
+                    <option value="15">QUÍMICA 2</option>
+                    <option value="16">QUÍMICA 3</option>
+                    <option value="17">QUÍMICA 4</option>
+                    <option value="18">QUÍMICA 5</option>
+                    <option value="19">GEOGRAFIA 1</option>
+                    <option value="20">GEOGRAFIA 2</option>
+                    <option value="21">HISTÓRIA 1</option>
+                    <option value="22">HISTÓRIA 2</option>
+                    <option value="23">HISTÓRIA 3</option>
+                    <option value="24">HISTÓRIA 4</option>
+                    <option value="25">FILOSOFIA</option>
+                    <option value="26">SOCIOLOGIA</option>
+                    <option value="27">PORTUGUÊS 1</option>
+                    <option value="28">PORTUGUÊS 2</option>
+                    <option value="29">REDAÇÃO</option>
+                </select>
+                <input class="separate" type="number" name="questions" id="questions_aula" placeholder="AULA ..." min="1">
+                <div class="checkbox">
+                    <input type="checkbox" name="questions" id="questions_ignore_respostas">
+                    <p>Ignorar vazios</p>
+                </div>
+            </div>
+            <div class="text_inputs">
+                <input type="text" name="questions" id="questions_classe" placeholder="EC">
+                <input type="text" name="questions" id="questions_casa" placeholder="EP">
+                <input type="text" name="questions" id="questions_sm" placeholder="S+">
+            </div>
+            <button id="generate_button" onclick="formatar(document.getElementById('questions_materia'), document.getElementById('questions_aula'), document.getElementById('questions_classe'), document.getElementById('questions_casa'), document.getElementById('questions_sm'), document.getElementById('questions_ignore_respostas'), document.getElementById('callback_text'), document.getElementById('callback_button'))">gerar</button>
+            <script>
+                // var textbox1 = document.getElementById('questions_aula')
+                var textbox1 = document.body;
+                var textbox2 = document.getElementById('questions_classe')
+                var textbox3 = document.getElementById('questions_casa')
+                var textbox4 = document.getElementById('questions_sm')
+                var generate_button = document.getElementById('generate_button')
+                textbox1.addEventListener('keydown', () => {
+                    if (event.keyCode == 13) {
+                        console.clear();
+                        generate_button.click();
+                    }
+                })
+                textbox2.addEventListener('keydown', () => {
+                    if (event.keyCode == 13) {
+                        console.clear();
+                        generate_button.click();
+                    }
+                })
+                textbox3.addEventListener('keydown', () => {
+                    if (event.keyCode == 13) {
+                        console.clear();
+                        generate_button.click();
+                    }
+                })
+                textbox4.addEventListener('keydown', () => {
+                    if (event.keyCode == 13) {
+                        console.clear();
+                        generate_button.click();
+                    }
+                })
+            </script>
+        </div>
+        <p id="callback_text">callback</p>
+        <button id="callback_button" disabled id="generate_button" onclick="copyToClipboard2(document.getElementById('callback_text').innerText)">copiar</button>
+    </div>
+
+</body>
+
+
+</html>

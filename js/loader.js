@@ -61,11 +61,3 @@ function toggleResponse(id) {
 
 
 }
-
-function copyToClipboard(text) {
-    navigator.clipboard.writeText(text);
-}
-
-function openCalculator() {
-    window.open('Calculator:///')
-}

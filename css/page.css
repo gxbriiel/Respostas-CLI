@@ -54,3 +54,38 @@ h5 {
     font-size: 30px;
     margin: 25px;
 }
+
+/* PÁGINA DO FORMATADOR */
+
+div.text_inputs, div.materia_aula_inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+div.text_inputs input, div.materia_aula_inputs .separate {
+    margin: 5px;
+}
+
+div.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.checkbox p {
+    margin: 0;
+}
+
+p#callback {
+    margin-top: 80px;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
+
+#callback_button {
+    padding: 20px 25px;
+    font-size: 30px;
+}

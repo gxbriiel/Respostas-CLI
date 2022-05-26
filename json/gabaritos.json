@@ -1,0 +1,598 @@
+{
+    "port_1": {
+        "nome_composto": "Português 1",
+        "aulas": {
+            "A1": {
+                "ec": "ABDDAC",
+                "ep": "EDBCCBBDBC",
+                "sm": ""
+            },
+            "A2": {
+                "ec": "DABCCC",
+                "ep": "BACDEAABCC",
+                "sm": ""
+            },
+            "A3": {
+                "ec": "CBDDD",
+                "ep": "ECCCEDECDB",
+                "sm": ""
+            }
+        }
+    },
+    "port_2": {
+        "nome_composto": "Português 2",
+        "aulas": {
+            "A1": {
+                "ec": "AABDA",
+                "ep": "CCCCBEABEAE",
+                "sm": ""
+            },
+            "A2": {
+                "ec": "DEABD",
+                "ep": "ECBDEEEECC",
+                "sm": ""
+            },
+            "A3": {
+                "ec": "EACAC",
+                "ep": "BADABADBAE",
+                "sm": ""
+            }
+        }
+    },
+    "hist_1": {
+        "nome_composto": "História 1",
+        "aulas": {
+            "A1": {
+                "ec": "ECCBD",
+                "ep": "CABCBBBBDD",
+                "sm": ""
+            },
+            "A2": {
+                "ec": "AACED",
+                "ep": "BDBEEBBCDD",
+                "sm": ""
+            },
+            "A3": {
+                "ec": "ADCBD",
+                "ep": "CBCCABDADA",
+                "sm": ""
+            }
+        }
+    },
+    "hist_2": {
+        "nome_composto": "História 2",
+        "aulas": {
+            "A1": {
+                "ec": "AEDBC",
+                "ep": "AECBCDBABC",
+                "sm": ""
+            },
+            "A2": {
+                "ec": "EBCDA",
+                "ep": "EBBCACBCAD",
+                "sm": ""
+            },
+            "A3": {
+                "ec": "ADEEC",
+                "ep": "CCCBBBEEDB",
+                "sm": ""
+            }
+        }
+    },
+    "hist_3": {
+        "nome_composto": "História 3",
+        "aulas": {
+            "A1_2": {
+                "ec": "BDCCA",
+                "ep": "EBADABEBBA",
+                "sm": "",
+                "nome_de_aula": "Aulas 1 e 2"
+            },
+            "A3_4": {
+                "ec": "DAEAA",
+                "ep": "BDCCDEAEDE",
+                "sm": "",
+                "nome_de_aula": "Aulas 3 e 4"
+            }
+        }
+    },
+    "hist_4": {
+        "nome_composto": "História 4",
+        "aulas": {
+            "A1": {
+                "ec": "CEDEE",
+                "ep": "DDBDA",
+                "sm": "ACCAB",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "AEDEA",
+                "ep": "CABEDEBCCD",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "CBEEB",
+                "ep": "DACCDCACDA",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "filo_1": {
+        "nome_composto": "Filosofia",
+        "aulas": {
+            "A1": {
+                "ec": "EADDB",
+                "ep": "ACECAECCBD",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "ACAAC",
+                "ep": "CEDCEAACBA",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "BAAEC",
+                "ep": "DDCECCCAEA",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "geog_1": {
+        "nome_composto": "Geografia 1",
+        "aulas": {
+            "A1": {
+                "ec": "AACBE",
+                "ep": "DEABBCBEDB",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "EEEAD",
+                "ep": "CDEEBDEBBA",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "EDEDB",
+                "ep": "AABCCCEABE",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "geog_2": {
+        "nome_composto": "Geografia 2",
+        "aulas": {
+            "A1": {
+                "ec": "DDDDE",
+                "ep": "ACCCEBABCC",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "DBADE",
+                "ep": "AACEAADACC",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "EDCCD",
+                "ep": "CBDBBCBBEA",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "biol_1": {
+        "nome_composto": "Biologia 1",
+        "aulas": {
+            "A1": {
+                "ec": "N",
+                "ep": "N",
+                "sm": "N",
+                "nome_de_aula": ""
+            },
+            "A2_3": {
+                "ec": "ABBBDDE",
+                "ep": "EBDBDBCAEEC*ECDDADCCCC",
+                "sm": "",
+                "nome_de_aula": "Aulas 2 e 3"
+            },
+            "A4": {
+                "ec": "ECACBC",
+                "ep": "DBDEDADBAAEEB",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A5_6": {
+                "ec": "EACBA",
+                "ep": "BBAEDBAEEBCBC",
+                "sm": "",
+                "nome_de_aula": "Aulas 5 e 6"
+            },
+            "A7": {
+                "ec": "ADBCC",
+                "ep": "BDBDDCCDBADAEDD",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A8": {
+                "ec": "BCEAABB",
+                "ep": "CADAEEBCCCAE",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "biol_2": {
+        "nome_composto": "Biologia 2",
+        "aulas": {
+            "A1_2": {
+                "ec": "EDCAA",
+                "ep": "BEAAADCDBACBAACBABC",
+                "sm": "",
+                "nome_de_aula": "Aulas 1 e 2"
+            },
+            "A3": {
+                "ec": "DEBCE",
+                "ep": "BABAAADCBE",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "biol_3": {
+        "nome_composto": "Biologia 3",
+        "aulas": {
+            "A1": {
+                "ec": "",
+                "ep": "EBBCDBACBB",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2_3": {
+                "ec": "EBCAD",
+                "ep": "CCACEABBBA",
+                "sm": "",
+                "nome_de_aula": "Aulas 2 e 3"
+            }
+        }
+    },
+    "biol_4": {
+        "nome_composto": "Biologia 4",
+        "aulas": {
+            "A1_2": {
+                "ec": "BBCDE",
+                "ep": "BCCCACAAEDACDDC",
+                "sm": "",
+                "nome_de_aula": "Aulas 1 e 2"
+            },
+            "A3": {
+                "ec": "CAAEA",
+                "ep": "BADEABCABB",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "biol_5": {
+        "nome_composto": "Biologia 5",
+        "aulas": {
+            "A1": {
+                "ec": "CECCAC",
+                "ep": "ACCCDEDDDECCDDDC",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "CABED",
+                "ep": "DEBEBDDEAEBCCAD",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "CBDBA",
+                "ep": "DBADCBDEEDDDBEABABA",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "quim_1": {
+        "nome_composto": "Química 1",
+        "aulas": {
+            "A1_2": {
+                "ec": "EDABB",
+                "ep": "CBDDDDBAEAD",
+                "sm": "EA",
+                "nome_de_aula": "Aulas 1 e 2"
+            },
+            "A3": {
+                "ec": "ADCCB",
+                "ep": "CABBCABAECBC",
+                "sm": "AC",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "quim_2": {
+        "nome_composto": "Química 2",
+        "aulas": {
+            "A1_2": {
+                "ec": "AACDA",
+                "ep": "ABCCDDBBCCAD",
+                "sm": "CA",
+                "nome_de_aula": "Aulas 1 e 2"
+            },
+            "A3": {
+                "ec": "ACCEB",
+                "ep": "EABCCBECAC",
+                "sm": "BA",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "quim_3": {
+        "nome_composto": "Química 3",
+        "aulas": {
+            "A1_2": {
+                "ec": "BEBEE",
+                "ep": "CCDADABDADACDACDCDD",
+                "sm": "",
+                "nome_de_aula": "Aulas 1 e 2"
+            },
+            "A3": {
+                "ec": "CAADA",
+                "ep": "ECDCABDDADEBBECAEBBBCCDDD",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "quim_4": {
+        "nome_composto": "Química 4",
+        "aulas": {
+            "A1": {
+                "ec": "N",
+                "ep": "N",
+                "sm": "N",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "CAAEBB",
+                "ep": "DCDBBAADBAEB",
+                "sm": "ED",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "CECBA",
+                "ep": "CCDADEEDAD",
+                "sm": "EA",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "quim_5": {
+        "nome_composto": "Química 5",
+        "aulas": {
+            "A1": {
+                "ec": "N",
+                "ep": "N",
+                "sm": "N",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "",
+                "ep": "DCEDCAEBCEEABCABBAEC",
+                "sm": "CCCAB",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "AADCB",
+                "ep": "ADAEDDBCADBEDCEEDD",
+                "sm": "ACDCD",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "fisi_1": {
+        "nome_composto": "Física 1",
+        "aulas": {
+            "A1": {
+                "ec": "A*CDA",
+                "ep": "DBAABCDDABB",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "DA*AC",
+                "ep": "ACECADABBB",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "AADBDB",
+                "ep": "DABACCEDDCB",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "fisi_2": {
+        "nome_composto": "Física 2",
+        "aulas": {
+            "A1": {
+                "ec": "N",
+                "ep": "N",
+                "sm": "N",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "N",
+                "ep": "N",
+                "sm": "N",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "ADBAEB",
+                "ep": "BBCDDCDDCAAAEAEEDBA",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "fisi_3": {
+        "nome_composto": "Física 3",
+        "aulas": {
+            "A1": {
+                "ec": "CEBCB",
+                "ep": "CDBBABDAAD",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "DCDAD",
+                "ep": "DAEAAACDDDCBD",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "AE*DB",
+                "ep": "EECDDDAABBCE",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "fisi_4": {
+        "nome_composto": "Física 4",
+        "aulas": {
+            "A1": {
+                "ec": "DCDCB",
+                "ep": "CAEECBDCACBC",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "BCCCA",
+                "ep": "DCACACCDCADA",
+                "sm": "E",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "CECBBE",
+                "ep": "DCCCEDACDBBB",
+                "sm": "A",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "fisi_5": {
+        "nome_composto": "Física 5",
+        "aulas": {
+            "A1": {
+                "ec": "N",
+                "ep": "N",
+                "sm": "N",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "CDBEA",
+                "ep": "BDCBBEBDCBCC",
+                "sm": "C",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "EBBEE",
+                "ep": "CCAADBCDCDDC",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "mate_1": {
+        "nome_composto": "Matemática 1",
+        "aulas": {
+            "A1_2": {
+                "ec": "BDCBE",
+                "ep": "*DABACABDAEAEBBEADCD",
+                "sm": "",
+                "nome_de_aula": "Aulas 1 e 2"
+            },
+            "A3": {
+                "ec": "EEDAA",
+                "ep": "CCECEDEBBCDDEDAAABCC",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "mate_2": {
+        "nome_composto": "Matemática 2",
+        "aulas": {
+            "A1": {
+                "ec": "BCCABE",
+                "ep": "CDCABDCDCBCECEBABAEAEDDEDDDCEDDEA",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "EAACC",
+                "ep": "EBCDCCCEBCCEBBBDAE",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "EEDAC",
+                "ep": "BDDBBABCACAAAEBD",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "mate_3": {
+        "nome_composto": "Matemática 3",
+        "aulas": {
+            "A1": {
+                "ec": "CDBDE",
+                "ep": "CDDCCCBDBCBDBAC",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2": {
+                "ec": "CAACD",
+                "ep": "CDBDCBACCBECDCC",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A3": {
+                "ec": "ABDBE",
+                "ep": "CECBDBCBDEACCBE",
+                "sm": "",
+                "nome_de_aula": ""
+            }
+        }
+    },
+    "mate_4": {
+        "nome_composto": "Matemática 4",
+        "aulas": {
+            "A1": {
+                "ec": "DACB",
+                "ep": "CEACECDDA**EACB",
+                "sm": "",
+                "nome_de_aula": ""
+            },
+            "A2_3": {
+                "ec": "A**DD*B",
+                "ep": "EDDCECCDEEDC**AE*C*ADDCDA",
+                "sm": "",
+                "nome_de_aula": "Aulas 2 e 3"
+            }
+        }
+    }
+}
