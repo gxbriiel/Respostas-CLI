@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no">
     <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/other-displays.css">
     <script src="js/utils.js"></script>
     <script src="js/loader.js"></script>
     <title>Respostas</title>
@@ -15,7 +16,7 @@
         <div class="inputs">
             <input type="text" name="questions" id="questions_param">
             <button id="generate_button" onclick="generateQuestions(document.getElementById('questions_list'), document.getElementById('questions_param').value)">gerar</button>
-            <button onclick="openCalculator()">ABRIR CALCULADORA</button>
+            <button class="calculator_btn" onclick="openCalculator()">ABRIR CALCULADORA</button>
             <script>
                 var textbox = document.getElementById('questions_param')
                 var generate_button = document.getElementById('generate_button')
@@ -52,6 +53,7 @@
 
 <script>
     document.getElementById('questions_param').focus();
+    document.getElementsByClassName('disclaimer')[0].style.display = 'none'
 </script>
 
 
