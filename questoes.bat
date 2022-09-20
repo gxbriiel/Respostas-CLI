@@ -1,1 +1,0 @@
-node C:\Users\Gabriel\Desktop\TI\Programação\Projetos\GitProjects\Respostas-CLI\questoes.js
